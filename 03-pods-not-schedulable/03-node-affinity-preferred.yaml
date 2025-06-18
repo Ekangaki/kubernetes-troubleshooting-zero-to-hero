@@ -20,7 +20,7 @@ spec:
         - weight: 1
           preference:
            matchExpressions:
-           - key: foo
+           - disktype: ssd
              operator: In
              values:
              - bar
