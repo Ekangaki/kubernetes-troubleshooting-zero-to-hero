@@ -19,7 +19,7 @@ spec:
         requiredDuringSchedulingIgnoredDuringExecution:
          nodeSelectorTerms:
          - matchExpressions:
-           - key: foo
+           - key: node-architecture
              operator: In
              values:
-             - bar1
+             - windows
